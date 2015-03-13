@@ -1,0 +1,26 @@
+{
+  "name": "generator-dim",
+  "version": "0.2.2-1",
+  "description": "Scaffold out a dim project",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JerroldLee/generator-dim.git"
+  },
+  "bugs": {
+    "url": "https://github.com/JerroldLee/generator-dim/issues"
+  },
+  "main": "app/index.js",
+  "keywords": [
+    "dim",
+    "scaffold",
+    "generator"
+  ],
+  "author": "Jerrold <lijiayouyj@163.com>",
+  "license": "MIT",
+  "dependencies": {
+    "yeoman-generator": "~0.17.0",
+    "semver": "~2.3.0",
+    "debug": "~1.0.2",
+    "rimraf": "~2.2.8"
+  }
+}
