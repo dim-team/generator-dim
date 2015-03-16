@@ -6,8 +6,8 @@ exports.meta = function (callback) {
 
 exports.views = function (done) {
     this.fetch([
-        'https://raw.githubusercontent.com/dim-team/dim.js/master/dim.js',
-        'https://raw.githubusercontent.com/necolas/normalize.css/master/normalize.css'
+        'https://raw.githubusercontent.com/JerroldLee/dim.js/master/dim.js',
+        'https://raw.githubusercontent.com/JerroldLee/normalize.css/master/normalize.css'
     ], 'views/lib', function (err) {
         if (err) return done(err);
         done();
