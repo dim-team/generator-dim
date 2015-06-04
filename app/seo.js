@@ -2,9 +2,9 @@
 
 exports.views = function (done) {
   this.fetch([
-    'https://raw.githubusercontent.com/JerroldLee/md.js/master/md.js',
-    'https://raw.githubusercontent.com/JerroldLee/pagelet.js/master/pagelet.js',
-    'https://raw.githubusercontent.com/JerroldLee/normalize.css/master/normalize.css'
+    'https://raw.githubusercontent.com/dim-team/md.js/master/md.js',
+    'https://raw.githubusercontent.com/dim-team/pagelet.js/master/pagelet.js',
+    'https://raw.githubusercontent.com/dim-team/normalize.css/master/normalize.css'
   ], 'views/lib', function (err) {
     if (err) return done(err);
     done();

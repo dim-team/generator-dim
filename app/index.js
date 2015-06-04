@@ -51,7 +51,7 @@ proto = Generator.prototype;
 
 proto._getTemplate = function (callback) {
     var cacheTemplate = path.resolve(tmpPath, this.type),
-        archive = 'https://codeload.github.com/JerroldLee/dim-template-' +
+        archive = 'https://codeload.github.com/dim-team/dim-template-' +
             this.type + '/tar.gz/master';
     callback = callback || function () {};
 

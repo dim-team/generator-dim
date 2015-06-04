@@ -1,13 +1,13 @@
 {
   "name": "generator-dim",
-  "version": "0.2.2-4",
+  "version": "0.2.2-5",
   "description": "Scaffold out a dim project",
   "repository": {
     "type": "git",
-    "url": "https://github.com/JerroldLee/generator-dim.git"
+    "url": "https://github.com/dim-team/generator-dim.git"
   },
   "bugs": {
-    "url": "https://github.com/JerroldLee/generator-dim/issues"
+    "url": "https://github.com/dim-team/generator-dim/issues"
   },
   "main": "app/index.js",
   "keywords": [
