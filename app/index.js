@@ -92,14 +92,14 @@ proto.prepare = function () {
             name: 'type',
             message: 'What type of dim project to init?',
             choices: [{
+                name: 'spa',
+                value: 'spa'
+            }, {
                 name: 'webapp',
                 value: 'webapp'
             }, {
                 name: 'seo',
                 value: 'seo'
-            }, {
-                name: 'olpm',
-                value: 'olpm'
             }]
         }];
 
